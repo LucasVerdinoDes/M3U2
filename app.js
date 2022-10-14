@@ -33,12 +33,13 @@ app.get('/prueba', function(req,res){
   res.send('Hola soy la pag de prueba');
 });
 
-app.get('/destacados', function(req,res){
-  res.send('Hola soy la pag de destacados');
-});
-app.get('/nosotros', function(req,res){
-  res.send('Hola soy la pag de nosotros');
-});
+// app.get('/destacados', function(req,res){
+//   res.send('Hola soy la pag de destacados');
+// });
+// app.get('/novedades', function(req,res){
+//   res.send('Hola soy la pag de nosotros');
+// });
+
 app.get('/prueba2', function(req,res){
   res.render('prueba');//prueba.hbs
 });
